@@ -3,13 +3,13 @@
 
 **Описание задания:**
 
-Мне нравится обработчик флаблонов Twig. Мне кажется он довольно безопасный. 
+Мне нравится обработчик флаблонов Twig. Возможно он не самый безопасный 
 
 https://ip:1337
 
 **English**
 
-I prefer Twig template engine. I think it's sesure enough.
+I prefer Twig template engine. Maybe it's not secure enough
 
 https://ip:1337
 

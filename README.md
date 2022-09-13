@@ -1,4 +1,4 @@
-# Mctf-final-secure-templates
+# Secure templates
  Web task for [M*CTF]() Finals 
 
 **Описание задания:**
@@ -29,11 +29,12 @@ In Browser: localhost:1337
 ```
 Где id - станадрная Unix команда для вывода имени пользователя и его группы. Удаленный код выполнится и будет выведено:
 
-вставь картинку тут
+![image](https://user-images.githubusercontent.com/77790965/189837506-f1373715-5d34-4dec-b8fd-0efe6bc074fc.png)
+
 
 Удаленный код выполнен, а значит можно попробовать что-то ещё, например почитать системные файлы. Флаг будет находиться в файле /etc/passwd.
 
-сюда вставь ещё картинку
+![image](https://user-images.githubusercontent.com/77790965/189839569-d74df404-42ea-4877-9b15-3b99211151da.png)
 
 ## Flag
 ```

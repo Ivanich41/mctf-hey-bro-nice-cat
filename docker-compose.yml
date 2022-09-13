@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  task_sorter:
+    image: task_sorter
+    restart: always
+    ports:
+      - '1337:80'

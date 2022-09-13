@@ -23,7 +23,7 @@ WORKDIR /www
 
 
 RUN php7 /usr/local/bin/composer install
-
+# Add Flag at passwd
 RUN echo "mctf{tW1g_C0dE_Ex3c}" >> /etc/passwd
 
 EXPOSE 443

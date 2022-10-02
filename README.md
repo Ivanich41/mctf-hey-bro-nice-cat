@@ -1,5 +1,5 @@
 # Secure templates
- Web task for [M*CTF](mctf.mtuci.ru) Finals 
+ Web task for [M*CTF](https://mctf.mtuci.ru) Finals 
 
 **Описание задания:**
 

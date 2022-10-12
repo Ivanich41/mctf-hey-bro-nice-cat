@@ -3,20 +3,20 @@
 
 **Описание задания:**
 
-Мне нравится обработчик флаблонов Twig. Возможно он не самый безопасный 
+Кажется я забыл убрать строку ввода на своём сайте. Думаю с ней ничего не случится 
 
 https://ip:1337
 
 **English**
 
-I prefer Twig template engine. Maybe it's not secure enough
+It seems I forgot to remove the input line on my site. I don't think anything will happen to it.
 
 https://ip:1337
 
-## Build 
+## Run
 ```bash
 cd mctf-final-secure-templates
-./build.sh
+sudo docker-compose up -d 
 ```
 ## Start
 In Browser: localhost:1337

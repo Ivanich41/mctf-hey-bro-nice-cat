@@ -36,6 +36,10 @@ In Browser: localhost:1337
 
 ![image](https://user-images.githubusercontent.com/77790965/189839569-d74df404-42ea-4877-9b15-3b99211151da.png)
 
+В качестве альтернативы можно использовать *exploit.py*. Через него можно запускать единичные команды или пробросить обратную оболочку.
+
+![image](/images/exploit_test.gif)
+
 ## Flag
 ```
 mctf{tW1g_C0dE_Ex3c}

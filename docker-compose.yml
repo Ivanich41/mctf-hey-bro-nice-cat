@@ -7,8 +7,8 @@ services:
       context: ./
     ports:
       - '1337:80'
-  healthcheck:
-    test: ["CMD", "curl", "-f", "http://localhost:80/"]
-    interval: 2m
-    timeout: 10s
-    retries: 1
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/"]
+      interval: 2m
+      timeout: 10s
+      retries: 1

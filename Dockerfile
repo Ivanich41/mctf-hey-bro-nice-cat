@@ -23,10 +23,10 @@ WORKDIR /www
 
 
 RUN php7 /usr/local/bin/composer install
-# Add Flag at passwd
-RUN echo "mctf{tW1g_C0dE_Ex3c}" >> /etc/passwd
+# Add Flag
+ENV FLAG mctf{tW1g_C0dE_Ex3c}
 
-EXPOSE 443
+EXPOSE 80
 
 # Run supervisord
 CMD /usr/bin/supervisord -c /etc/supervisord.conf

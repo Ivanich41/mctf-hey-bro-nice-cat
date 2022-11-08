@@ -1,4 +1,4 @@
-# Secure templates
+# Hey Bro Nice Cat
  Web task for [M*CTF](https://mctf.mtuci.ru) Finals 
 
 **Описание задания:**

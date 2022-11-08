@@ -1,24 +1,46 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <style>
-            .twig-img {
-                position:absolute;
-                bottom: 20px;
-                right: 20px;
+            body {
+                background: #333333;
+            }
+            .login-form {
+                position: absolute;
+                left: 40%;
+                right: 40%;
+                top: 50%;
+                opacity: .0;
+                z-index: 1;
+            }
+            .button {
+                position: absolute;
+                left: 40%;
+                right: 40%;
+                top: 61%;
+                opacity: .0;
+                z-index: 1;
+            }
+            .image{
+                position: absolute;
+                width: 1900px;
+                height: 900px;
+                z-index: 100;
             }
         </style>
-        <title>My website</title>
+        <title>Pretty Cat</title>
     </head>
     <body>
         <form method="post" action="/render">
         <div class="login-form">
             <label for="template">Input Here!</label><br>
             <textarea name="template" class="form-control" rows="4" cols="40"></textarea><br>
+        </div>
+        <div class="button">
             <button type="submit" id="login-btn mb-2" class="btn btn-primary">Render</button>
         </div>
         </form>
-        <p><img class="twig-img" src="https://cms.rootstack.com/sites/default/files/inline-images/Twigg_0.png" width="200"></p>
+        <p><img class="image" src="./imgs/cat-head-shaking.gif"></p>
     </body>
 </html>

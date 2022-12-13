@@ -35,6 +35,8 @@ In Browser: localhost:1337
 ```bash
 {{ ['id','']|sort('system') }}
 ```
+Пейлоуд также доступен на [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection#twig---code-execution).
+
 Где id - станадрная Unix команда для вывода имени пользователя и его группы. Удаленный код выполнится и будет выведено:
 
 ![image](https://user-images.githubusercontent.com/77790965/189837506-f1373715-5d34-4dec-b8fd-0efe6bc074fc.png)
